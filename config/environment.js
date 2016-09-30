@@ -12,7 +12,12 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
-
+    firebase: {
+      apiKey: "AIzaSyDnsBdZmiP7usaJ34poDjr3ifr5b72tb-U",
+    authDomain: "triviapp-e287a.firebaseapp.com",
+    databaseURL: "https://triviapp-e287a.firebaseio.com",
+    storageBucket: "triviapp-e287a.appspot.com",
+    },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
